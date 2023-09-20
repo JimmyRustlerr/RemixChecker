@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen as uReq
 import re
 from plyer import notification
-import json
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QListWidget, QDialog, QFormLayout, QSpinBox
 from PyQt5.QtCore import QRunnable, QThreadPool, QObject, pyqtSignal, QTimer
 from PyQt5.QtGui import QIcon
