@@ -77,7 +77,7 @@ class ProductNotifier(QWidget):
     def init_ui(self):
         vbox = QVBoxLayout(self)
 
-        label = QLabel("Enter URLs:")
+        label = QLabel("Enter product URLs:")
         vbox.addWidget(label)
 
         self.entry = QLineEdit()
