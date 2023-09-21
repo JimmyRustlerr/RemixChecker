@@ -7,6 +7,12 @@ from PyQt5.QtCore import QRunnable, QThreadPool, QTimer
 from PyQt5.QtGui import QIcon
 import os
 
+################################################################
+#Sample product URLs
+#https://remixshop.com/bg/mens-clothes-shirts-pr30569734.html
+#https://remixshop.com/bg/mens-clothes-shirts-marc-o'polo-pr30569738.html
+################################################################
+
 root = os.path.split(__file__)[0]
 images = os.path.join(root, 'images/unnamed.png')
 
@@ -167,7 +173,6 @@ class ProductNotifier(QWidget):
 
 if __name__ == "__main__":
     app = QApplication([])
-        # Set the application icon
     app_icon = QIcon(images)
     app.setWindowIcon(app_icon)
 
@@ -175,7 +180,3 @@ if __name__ == "__main__":
     window.setWindowTitle("Remix Checker")
     window.show()
     app.exec_()
-
-
-#very simple test
-#second test
